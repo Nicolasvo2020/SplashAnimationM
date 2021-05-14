@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="herramientas"
+        android:icon="@drawable/settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/accion_compartir"
+        android:title="Compartir"
+        android:icon="@drawable/compartir"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+     <item android:title="Salir"
+        android:id="@+id/accion_salir"
+        android:orderInCategory="300"
+        android:onClick="cerrar"
+        android:icon="@drawable/power"
+        app:showAsAction="always"/>
+</menu>
